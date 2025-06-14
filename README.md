@@ -1,6 +1,6 @@
 # Orchestrator Template
 
-A multi-agent orchestration template for building AI-powered applications with specialized agents for planning, coding, reviewing, and testing.
+A multi-agent orchestration template for building applications with specialized agents for planning, coding, reviewing, and testing.
 
 ## Overview
 
@@ -79,6 +79,7 @@ Each agent can be customized by modifying its corresponding file in the `agents/
 1. **Agent initialization** with specific roles and capabilities
 2. **Task processing** logic
 3. **Inter-agent communication** through the router
+4. **MCP Servers** for adding more capabilities to your agents
 
 ## Usage
 
