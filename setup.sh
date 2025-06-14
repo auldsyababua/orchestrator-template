@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Orchestrator Template Setup Script
-# Usage: curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/orchestrator-template/main/setup.sh | bash -s my-new-project
+# Usage: curl -sSL https://raw.githubusercontent.com/auldsyababua/orchestrator-template/main/setup.sh | bash -s my-new-project
 
 set -e  # Exit on error
 
@@ -18,7 +18,7 @@ echo -e "${GREEN}🚀 Setting up Orchestrator Template as: ${PROJECT_NAME}${NC}"
 
 # Clone the template
 echo -e "${YELLOW}📦 Cloning template repository...${NC}"
-git clone https://github.com/YOUR_USERNAME/orchestrator-template.git "$PROJECT_NAME"
+git clone https://github.com/auldsyababua/orchestrator-template.git "$PROJECT_NAME"
 cd "$PROJECT_NAME"
 
 # Remove the template's git history
@@ -75,5 +75,5 @@ echo "3. source .venv/bin/activate  # On Windows: .venv\\Scripts\\activate"
 echo "4. python main.py"
 echo ""
 echo -e "${YELLOW}Optional: Create a new GitHub repository and push:${NC}"
-echo "   git remote add origin https://github.com/YOUR_USERNAME/$PROJECT_NAME.git"
+echo "   git remote add origin https://github.com/auldsyababua/$PROJECT_NAME.git"
 echo "   git push -u origin main"

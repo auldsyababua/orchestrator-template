@@ -17,14 +17,14 @@ This template provides a foundation for creating multi-agent systems where diffe
 Clone and set up a new project with a single command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/orchestrator-template/main/setup.sh | bash -s my-new-project
+curl -sSL https://raw.githubusercontent.com/auldsyababua/orchestrator-template/main/setup.sh | bash -s my-new-project
 ```
 
 Or manually:
 
 ```bash
 # Clone the template
-git clone https://github.com/YOUR_USERNAME/orchestrator-template.git my-new-project
+git clone https://github.com/auldsyababua/orchestrator-template.git my-new-project
 cd my-new-project
 
 # Create and activate virtual environment
